@@ -3,7 +3,7 @@ import "../styles/ProductCard.css";
 import { useCart } from "../context/CartContext";
 
 export default function ProductCard({ product }) {
-  const { addToCart } = useCart();
+       const { addToCart = () => {} } = useCart() || {};
   return (
     <div className="card">
       <img src={product.img} alt={product.name} />
