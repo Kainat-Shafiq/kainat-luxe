@@ -1,0 +1,31 @@
+.shop-banner{background:#0d0b09;padding:35px 50px}
+.shop-banner h1{color:#e8c9a0;font-family:serif;font-size:38px;margin-bottom:8px}
+.shop-banner span,.shop-banner a{color:#fff;font-size:14px}
+.shop-wrap{display:flex;gap:30px;background:#fdfaf5;padding:30px 50px;color:#222}
+.filters{width:200px;flex-shrink:0}
+.filters h3{margin:25px 0 12px;font-size:17px;color:#000}
+.filters h3:first-child{margin-top:0}
+.filters label{display:flex;gap:8px;align-items:center;margin:9px 0;font-size:14px;color:#222;cursor:pointer}
+.filters input[type=checkbox]{width:16px;height:16px;accent-color:#b08d57}
+.color-row{display:flex;align-items:center;gap:10px;margin:9px 0;font-size:14px;color:#222}
+.color-row span{width:20px;height:20px;border-radius:50%}
+.range{width:100%;accent-color:#000}
+.filters p{color:#222}
+.shop-main{flex:1}
+.shop-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.shop-top p{font-weight:700;color:#000}
+.shop-top select{padding:8px 12px;border:1px solid #ccc;border-radius:6px;background:#fff;color:#000}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{position:relative}
+.card a{text-decoration:none;color:inherit;cursor:pointer;display:block}
+.img-box{position:relative}
+.img-box img{width:100%;height:320px;object-fit:cover;border-radius:10px;display:block}
+.heart{position:absolute;top:10px;right:10px;background:#fff;border:none;width:34px;height:34px;border-radius:50%;color:#000;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.2);z-index:5;font-size:16px}
+.card h4{margin:10px 0 4px;font-size:15px;color:#000;cursor:pointer}
+.price{color:#000;font-weight:700}
+.stars{color:#f5a623;font-size:13px;letter-spacing:2px;margin:4px 0 8px}
+.add{width:100%;background:#0d0b09;color:#e8c9a0;border:none;padding:10px;border-radius:8px;cursor:pointer}
+.pagination{display:flex;gap:10px;justify-content:center;margin-top:35px}
+.pagination button{background:none;border:none;font-size:16px;cursor:pointer;width:32px;height:32px;border-radius:50%;color:#000}
+.pagination .active{background:#e8c9a0;font-weight:bold}
+@media(max-width:768px){.shop-wrap{flex-direction:column;padding:20px}.grid{grid-template-columns:repeat(2,1fr)}}

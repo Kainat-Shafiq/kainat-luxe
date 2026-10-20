@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Jost:wght@400;500;600;700&display=swap');
+.contact-page{background:#F8F5F0 !important;font-family:'Jost',sans-serif;min-height:100vh}
+.contact-container{max-width:1150px;margin:0 auto;padding:55px 20px 35px;display:grid;grid-template-columns:1fr 1.1fr;gap:55px;align-items:start}
+.contact-left h1{font-family:'Playfair Display',serif;font-size:36px;font-weight:800 !important;color:#000 !important;margin:5px 0 15px 0;letter-spacing:0.3px}
+.contact-left>p{font-size:14.5px;line-height:1.7;color:#666;max-width:380px;margin:0 0 35px 0}
+.contact-info{display:flex;gap:18px;align-items:center;margin-bottom:28px}
+.info-icon{width:50px;height:50px;min-width:50px;background:#1A1A1A !important;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 15px rgba(0,0,0,0.15)}
+.info-icon svg{stroke:#fff !important}
+.contact-info h3{font-size:15.5px;color:#000 !important;margin:0 0 3px 0;font-weight:700 !important;letter-spacing:0.3px}
+.contact-info p{font-size:13.5px;color:#777;margin:0}
+.contact-form-card{background:#fff;border:1px solid #EFE6D5;border-radius:14px;padding:32px 30px;box-shadow:0 5px 25px rgba(0,0,0,0.05)}
+.contact-form-card h2{font-family:'Playfair Display',serif;font-size:24px;font-weight:800 !important;color:#000 !important;margin:0 0 22px 0}
+.contact-form-card label{display:block;font-size:13px;font-weight:700;color:#1A1A1A;margin-bottom:7px}
+.contact-form-card label span{color:#c0392b}
+.contact-form-card input,.contact-form-card textarea{width:100%;padding:13px 15px;border:1px solid #E5DDCB;border-radius:8px;font-size:13.5px;font-family:'Jost',sans-serif;color:#333;background:#FFFEFB;outline:none;margin-bottom:18px;box-sizing:border-box;transition:0.3s}
+.contact-form-card input:focus,.contact-form-card textarea:focus{border-color:#B08D3E;background:#fff}
+.contact-form-card textarea{resize:vertical;min-height:110px}
+.contact-form-card button{width:100%;padding:15px;background:#1A1A1A !important;color:#fff !important;border:none;border-radius:8px;font-size:14px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;cursor:pointer;font-family:'Jost',sans-serif;transition:0.3s}
+.contact-form-card button:hover{background:#B08D3E !important}
+.map-section{max-width:1150px;margin:0 auto;padding:0 20px 60px;position:relative}
+.map-section iframe{width:100%;height:260px;border:1px solid #E8DCC0;border-radius:14px;filter:sepia(0.15) saturate(0.85)}
+.map-pin-label{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#1A1A1A;color:#fff;padding:9px 18px;border-radius:30px;font-size:12.5px;font-weight:700;box-shadow:0 5px 20px rgba(0,0,0,0.25);pointer-events:none}
+@media(max-width:768px){.contact-container{grid-template-columns:1fr;gap:35px;padding:35px 20px 25px}.contact-left h1{font-size:30px}.contact-form-card{padding:25px 20px}.map-section iframe{height:200px}}

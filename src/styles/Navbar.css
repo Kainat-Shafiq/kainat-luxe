@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Jost:wght@400;500;600&display=swap');
+.navbar{display:flex !important;justify-content:space-between !important;align-items:center !important;padding:16px 5% !important;background:#111111 !important;background-color:#111111 !important;border-bottom:1px solid #222 !important;position:sticky;top:0;z-index:1000;font-family:'Jost',sans-serif}
+.logo{font-family:'Playfair Display',serif;font-size:24px;font-weight:800 !important;color:#C9A86A !important;text-decoration:none;letter-spacing:2.5px;background:transparent !important}
+.nav-links{display:flex;gap:38px;background:transparent !important}
+.nav-links a{color:#FFFFFF !important;text-decoration:none;font-size:13px;font-weight:500;letter-spacing:1.5px;text-transform:capitalize;position:relative;padding-bottom:4px;background:transparent !important}
+.nav-links a::after{content:'';position:absolute;left:0;bottom:0;width:0;height:1.5px;background:#C9A86A;transition:0.3s}
+.nav-links a:hover{color:#C9A86A !important}
+.nav-links a:hover::after{width:100%}
+.nav-icons{display:flex;gap:22px;align-items:center;font-size:19px;background:transparent !important}
+.nav-icons a{color:#FFFFFF !important;text-decoration:none;position:relative;background:transparent !important}
+.nav-icons a:hover{color:#C9A86A !important}
+.cart-icon{position:relative}
+.cart-count{position:absolute;top:-8px;right:-10px;background:#C9A86A !important;color:#111 !important;font-size:10px;width:17px;height:17px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800}
+.profile-wrap{position:relative;cursor:pointer;font-size:18px;color:#FFFFFF;background:transparent !important}
+.profile-wrap:hover{color:#C9A86A}
+.profile-menu{position:absolute;top:42px;right:0;background:#fff !important;width:180px;border:1px solid #E8DCC0;border-radius:10px;box-shadow:0 8px 25px rgba(0,0,0,0.2);display:flex;flex-direction:column;z-index:1001;overflow:hidden}
+.profile-menu a{padding:13px 16px;color:#1A1A1A !important;text-decoration:none;font-size:13px;border-bottom:1px solid #F8F5F0;font-weight:600;background:#fff !important}
+.profile-menu a:hover{background:#F8F5F0 !important;color:#B08D3E !important}
+@media(max-width:768px){.nav-links{display:none}.navbar{padding:14px 20px !important}.logo{font-size:19px;letter-spacing:1.5px}}
