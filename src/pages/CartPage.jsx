@@ -1,6 +1,6 @@
 import { useCart } from "../context/CartContext";
 export default function CartPage() {
-  const { cart, removeFromCart } = useCart();
+  const { cart = [], removeFromCart = () => {} } = useCart() || {};
   const total = cart.reduce((sum, i) => sum + i.price, 0);
   return (
     <div style={{padding: "40px", color: "white"}}>
